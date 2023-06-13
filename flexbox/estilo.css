@@ -1,0 +1,30 @@
+/*  esto sirve para eliminaar los bordes externos*/
+
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  } 
+
+.container-rojo{
+    background-color: rgb(185, 183, 183);
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 20px;
+    align-items: flex-start;
+    font-size: 20px;
+}
+
+.box{
+    background-color: blue;
+    width: 100px;
+    height: 28px;
+    padding: 20px;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: aliceblue;
+
+}

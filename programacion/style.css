@@ -1,0 +1,37 @@
+/*selector de etiquetas*/
+
+body {
+    background-color: antiquewhite;
+    width: 300px;
+    text-align: center;
+    margin: auto;
+    padding: 200px;
+}
+
+/*  */
+img{
+    /* con cover contiene el aaspectos, sin importa ek camibon en tamaño de la pan */
+    object-fit: cover;
+    border-radius: 4px;
+    
+}
+
+/*  */
+h1 {
+    color: blue;
+}
+
+/*  */
+.rojo{
+    background-color: brown;
+    color: rgb(251, 247, 247);
+}
+
+/*  */
+#claseSegunda{
+    background-size: 100px ;
+}
+
+ul,ol,h1 {
+    margin-left: 50px;
+}

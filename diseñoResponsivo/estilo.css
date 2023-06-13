@@ -1,0 +1,30 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.barra{
+    background-color: aqua;
+    display: flex;
+    justify-content: flex-start;
+    width: 100em;
+    height: 100em;
+
+}
+
+.caja{
+    background-color: azure;
+    display: flex;
+    justify-content: flex-end;
+    gap: 5px;
+    width: 100em;
+    height: 15em;
+}
+
+.mini{
+    background-color: rgb(255, 127, 127);
+    
+    width: 9%;
+    height: 15%;
+}
